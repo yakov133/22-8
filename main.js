@@ -164,12 +164,12 @@
             pic:document.getElementById("pic10").value
         }
 
-        console.log(obj);
+        console.log(`<p> <img width="400px" height="500px src="${obj.pic}"> </p>`);
         document.body.innerHTML += `
         <div>
         <p>name: ${obj.name}</p>
         <p>age: ${obj.age}</p>
         <p>country: ${obj.cuontry}</p>
-        <p><img width="400px" height="500px src="${obj.pic}"> </p>
+        <p> <img src="${obj.pic}" width="300" height="500"> </p>
         </div>`   
      }
